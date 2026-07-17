@@ -13,4 +13,6 @@ I build evaluation-first ML systems: pre-registered success criteria, held-out s
 
 **[gridlens](https://github.com/alam-hira/gridlens)** — deterministic GB electricity analytics with two-layer validation ([live](https://alam-hira.github.io/gridlens)).
 
+**[cropcast](https://github.com/alam-hira/cropcast)** — evaluation-first rebuild of an MSc export-forecasting project. Diagnosed test-label leakage and target imputation that had scored R² = −0.30 (worse than the mean), then re-engineered it as a leakage-free rolling-origin backtest over 198 countries scored against naïve baselines. Ridge beat "copy last year's value" in 71% of countries at a 3-year horizon (~19% lower error); the neural net was not the winner — the honest result is the point.
+
 Everything free and local · fail-loud, never fabricate · Pydantic-validated boundaries · offline CI · fix-forward public history
